@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin-top: 5%;
+    background: linear-gradient(90deg,rgb(240, 123, 143),rgb(162, 224, 235));  
+}
+.box{
+    background-color: white;
+    position: relative;
+    height: 500px;
+    width: 70%;
+    border-radius: 50px;
+    box-shadow: 0 0 30px black;
+    overflow: hidden;
+     transition: 0.6s ease-in-out 1.2s,visibility 0s 1s;
+     margin-left: 190px;
+}
+.word{
+    position: absolute;
+    width: 60%;
+    
+}
+.in-put,.icon-2,.forgot-1{
+    margin-left: 70%;
+    transition: 0.6s ease-in-out 1.2s,visibility 0s 1s;
+    z-index: 1;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+/*register*/
+
+.in-put input{
+    padding: 15px;
+    width: 300px;
+    background-color: rgb(158, 154, 154);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 30px;
+    z-index: 1;
+    display: inline;
+
+}
+
+.in-put,.forgot-1,.icon-2{
+    margin-left: 550px;
+}
+.in-put{
+    margin-top: 50px;
+}
+.login{
+    width: 330px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(182, 91, 162);
+    border: none;
+    color: white;
+}
+.forgot,.forgo a p{
+    text-align: center;
+    color: black;
+    border: non;
+    padding:10px;
+    margin-left: 70px;  
+}
+.forgot-1,.forgo a{
+    text-decoration: none;
+}
+.para,.icon-2,.icon-1{
+    padding: 10px;
+    width: 300px;
+}
+.icon-2,.icon-1 a{
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+.side-nav{
+    background-color: rgb(150, 32, 101);
+    position: absolute;
+    border-radius: 50px;
+    z-index: 3;
+    align-items: center;
+    width: 70%;
+    height: 500px;
+}
+.side-nav::before{
+    content: '';
+    position: absolute;
+    left: -250%;
+    width: 400%;
+    height: 100%;
+    border-radius: 150px;
+    z-index: 2;
+    transition: 1.8s ease-in-out;
+}
+.box.word.side-nav::before{
+    left: 50%;
+}
+.hello{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    align-items: center;
+    left: 60px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    padding: 5px;
+}
+.hello button{
+    background: transparent;
+    color: white;
+    border: none ;
+    border-color: white;
+    padding: 9px;
+    border-style: solid ;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 100px;
+}
+.hello button{
+    margin-top: 10px;
+}
+.hello p{
+    margin-top:10px;
+}
+.but{
+    position:absolute ;
+   width:100%;
+}
+.link{
+       color: black;
+       padding-bottom:10px;
+       text-align: center;
+       width:100%;
+       margin-left: 50px;
+       margin-bottom: 10px;
+}
+.forgot-1 a{
+        text-decoration: none;
+        color:black;
+        text-align: center;
+        padding:7px;
+}
+.icon-2{
+    color:black;
+}
